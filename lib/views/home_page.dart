@@ -19,7 +19,7 @@ class Homepage extends StatelessWidget {
         title: Text(
           'ChatApp',
           style: TextStyle(
-            color: const Color.fromARGB(255, 242, 122, 57),
+            color: const Color.fromARGB(255, 57, 179, 29),
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -89,7 +89,7 @@ class UserCard extends StatelessWidget {
           height: 100,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
-            color: const Color.fromARGB(133, 250, 229, 201),
+            color: const Color.fromARGB(133, 212, 250, 201),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -100,7 +100,7 @@ class UserCard extends StatelessWidget {
                     padding: EdgeInsets.all(8.0),
                     child: CircleAvatar(
                       radius: 25,
-                      backgroundColor: const Color.fromARGB(255, 242, 122, 57),
+                      backgroundColor: const Color.fromARGB(255, 57, 179, 29),
                       child: Text(
                         email.isNotEmpty ? email[0].toUpperCase() : "?",
                         style: TextStyle(

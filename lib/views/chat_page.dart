@@ -37,7 +37,7 @@ class ChatPage extends StatelessWidget {
               backgroundColor: Colors.white,
               child: Icon(
                 Icons.person,
-                color: const Color.fromARGB(255, 242, 122, 57),
+                color: const Color.fromARGB(255, 57, 179, 29),
               ),
             ),
             SizedBox(width: 10),
@@ -127,7 +127,7 @@ class ChatPage extends StatelessWidget {
                         ),
                         decoration: BoxDecoration(
                           color: isMe
-                              ? Color.fromARGB(255, 233, 202, 162)
+                              ? Color.fromARGB(255, 166, 233, 162)
                               : Colors.white,
                           borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(16),
@@ -216,7 +216,7 @@ class ChatPage extends StatelessWidget {
 
                   CircleAvatar(
                     radius: 25,
-                    backgroundColor: const Color.fromARGB(255, 242, 122, 57),
+                    backgroundColor:  const Color.fromARGB(255, 57, 179, 29),
                     child: IconButton(
                       icon: Icon(Icons.send, color: Colors.white),
                       onPressed: sendMessage,

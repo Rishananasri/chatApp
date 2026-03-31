@@ -16,7 +16,7 @@ class ProfilePage extends StatelessWidget {
           Center(
             child: CircleAvatar(
               radius: 40,
-              backgroundColor: const Color.fromARGB(255, 242, 122, 57),
+              backgroundColor: const Color.fromARGB(255, 57, 179, 29),
               child: Text(
                 user?.email?[0].toUpperCase() ?? "?",
                 style:  TextStyle(

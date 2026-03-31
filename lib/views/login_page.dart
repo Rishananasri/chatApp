@@ -46,7 +46,7 @@ class LoginPage extends StatelessWidget {
                   child: Icon(
                     Icons.message_rounded,
                     size: 80,
-                    color: const Color.fromARGB(255, 242, 122, 57),
+                    color: const Color.fromARGB(255, 57, 179, 29),
                   ),
                 ),
                 SizedBox(height: 20),
@@ -139,7 +139,7 @@ class LoginPage extends StatelessWidget {
                         Text(
                           "Sign In with Google",
                           style: TextStyle(
-                            color: const Color.fromARGB(255, 242, 122, 57),
+                            color: const Color.fromARGB(255, 57, 179, 29),
                             fontSize: 15,
                             fontWeight: FontWeight.w500,
                           ),
